@@ -1,0 +1,27 @@
+{
+    "name": "mpaz/module-progress-bar",
+    "description": "Magento2 Automatic page load progress bar for the frontend.",
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "version": "v1.0.1",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mpaz\\ProgressBar\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Mauricio Paz",
+            "homepage": "http://mauriciopazpp.github.io/",
+            "role": "Developer"
+        }
+    ]
+}
